@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0 5vh 2.5vh 5vh; /* Eliminar padding-top */
+    background-color: #d3d3d3; /* Color gris más claro */
+    box-sizing: border-box; /* Incluir padding en el ancho total */
+}
+.section {
+    width: 100%;
+}
+
+.header-text {
+    font-size: 2em;
+    text-align: left;
+    color: rgb(229, 57, 120);
+    padding-left: 2%;
+}
+
+.header {
+    background-color: #303037;
+    background-repeat: repeat;
+    background-size: auto;
+    text-size-adjust: 20px;
+    height: 15vh; /* Definir una altura para el header */
+    width: 100%; /* Asegurar que el header ocupe todo el ancho */
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    padding-left: 20px; /* Espaciado desde el borde izquierdo */
+    box-sizing: border-box; /* Incluir padding en el ancho total */
+}
+
+/* Estilo de la franja azul */
+.dBlue {
+    background-color: #6e6e6e; /* bgcolor importante sino no pinta el html */
+    height: 5vh; /* Altura para el contenido */
+    width: 100%;
+    display: flex; /* Usar flexbox para centrar el contenido */
+    align-items: center; /* Centrar verticalmente */
+    margin-top: auto; /* Empuja el contenedor hacia abajo */
+}
+
+.middleB {
+    padding-top: 20px; 
+    padding-bottom: 20px; /* Añadir espacio inferior */
+    color: rgb(229, 57, 120);; 
+    background-color: #b8b0b1;
+    flex-grow: 1; /* Asegurar que ocupe todo el espacio disponible */
+    width: 40vw;  /* Ancho proporcional a la pantalla */
+    display: flex; 
+    flex-direction: column; /* Asegurar dirección de columna */
+    align-items: center; /* Centrar horizontalmente */
+    justify-content: center; /* Centrar verticalmente */
+}
+
+.firstL {
+    background-color: #c7216c; /* bgcolor importante sino no pinta el html */
+    height: 5vh;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    height: calc(100vh - 20vh); /* Ajustar la altura para que .dBlue quede al final */
+    display: flex;
+    background-color: #d3d3d3; /* Color gris más claro */
+}
+
+.sideL {
+    background-color: #fa9ba9;
+    height: 100%; /* Usar 100% de la altura del contenedor */
+    width: 30vw;  /* Ancho proporcional a la pantalla */
+}
+
+.sideR {
+    background-color: #8a8485;
+    height: 100%; /* Usar 100% de la altura del contenedor */
+    width: 30vw;  /* Ancho proporcional a la pantalla */
+}
+
+.middle-text {
+    font-size: 40px;
+    text-align: center;
+    margin: 0; /*  */
+    flex-grow: 1; /*  */
+    display: flex;
+    /* align-items: center; Centrar verticalmente */
+}
+
+.final-text {
+    font-size: 1em;
+    padding-left: 80px;
+    padding-top: 0.1vh; /* Añadir espacio superior para separar del borde */
+    margin: 0; 
+}
